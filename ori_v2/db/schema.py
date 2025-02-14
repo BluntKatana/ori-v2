@@ -36,7 +36,7 @@ class Meeting(Base):
     title  = Column(String, nullable=True)
     source_creation_date = Column(DateTime(), nullable=True)
     source = Column(String, nullable=False) # e.g. "notubiz", "ibab"
-    source_id = Column(Integer(), nullable=True) # unique id in source
+    source_id = Column(String, nullable=True) # unique id in source
     source_api_url = Column(String, nullable=True) # api url where we found the meeting
     source_page_url = Column(String, nullable=True) # page url where can find the meeting
 
@@ -64,7 +64,7 @@ class AgendaItem(Base):
     # agenda item-specific
     title = Column(String, nullable=True)
     source = Column(String, nullable=False) # e.g. "notubiz", "ibab"
-    source_id = Column(Integer(), nullable=True) # unique id in source
+    source_id = Column(String, nullable=True) # unique id in source
     source_api_url = Column(String, nullable=True) # api url where we found the agenda item
 
     # JSON-blob of the agenda item data
@@ -92,7 +92,7 @@ class Document(Base):
     title = Column(String, nullable=True)
     name = Column(String, nullable=True)
     source = Column(String, nullable=False) # e.g. "notubiz", "ibab"
-    source_id = Column(Integer(), nullable=True) # unique id in source
+    source_id = Column(String, nullable=True) # unique id in source
     source_api_url = Column(String, nullable=True) # api url where we found the document
 
     # JSON-blob of the document data

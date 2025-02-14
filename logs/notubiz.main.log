@@ -8966,3 +8966,681 @@
 [2025-02-13 15:59:08,754] [notubiz.main] [INFO] - agenda_document: 14937974, https://api.notubiz.nl/document/14937974/1
 [2025-02-13 15:59:08,762] [notubiz.main] [INFO] - agenda_document: 14937977, https://api.notubiz.nl/document/14937977/1
 [2025-02-13 15:59:08,993] [notubiz.main] [INFO] - Total module documents: 8
+[2025-02-14 11:56:45,813] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 11:56:46,469] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 11:56:46,509] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 11:56:46,989] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 11:56:47,321] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 11:56:47,962] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 11:56:48,842] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 11:56:48,995] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 11:56:49,369] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 11:56:49,431] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 11:56:50,454] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 11:56:50,785] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 11:56:50,862] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 11:56:51,461] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 11:56:51,770] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 11:56:52,143] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 11:56:53,401] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 11:56:53,848] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 11:56:53,849] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 11:56:53,973] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 11:56:54,598] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 11:56:54,761] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 11:56:54,823] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 11:56:55,805] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 11:56:55,966] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 11:56:56,423] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 11:56:57,319] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 11:56:57,378] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 11:56:57,730] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 11:56:57,749] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:02:42,683] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:02:42,760] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:02:42,855] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:02:43,591] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:02:43,888] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:02:44,566] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:02:45,590] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:02:45,693] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:02:45,803] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:02:46,014] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:06:34,960] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:06:35,062] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:06:35,103] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:06:35,681] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:06:35,857] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:06:36,279] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:06:37,417] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:06:37,431] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:06:37,610] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:06:37,729] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:14:46,136] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:14:46,330] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:14:46,400] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:14:47,057] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:14:47,175] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:14:47,746] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:14:48,790] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:14:48,892] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:14:49,083] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:14:49,083] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:16:26,066] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:16:26,364] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:16:26,498] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:16:27,136] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:16:27,144] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:16:28,078] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:16:29,140] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:16:29,203] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:16:29,446] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:16:29,525] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:20:03,313] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:20:03,475] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:20:03,952] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:20:04,198] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:20:04,399] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:20:05,034] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:20:05,841] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:20:05,967] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:20:06,088] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:20:06,379] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:27:07,488] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:27:07,507] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:27:07,622] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:27:08,195] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:27:08,499] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:27:08,977] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:27:09,719] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:27:09,876] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:27:10,001] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:27:10,013] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:31:38,249] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:31:38,421] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:31:38,542] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:31:39,667] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:31:40,205] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:31:41,150] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:31:42,522] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:31:43,106] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:31:43,106] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:31:43,193] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:38:37,205] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:38:37,423] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:38:37,471] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:38:37,912] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:38:38,127] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:38:38,795] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:38:39,547] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:38:39,549] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:38:39,750] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:38:39,775] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:40:47,838] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:40:47,938] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:40:47,984] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:40:48,775] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:40:48,888] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:40:49,404] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:40:50,283] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:40:50,305] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:40:50,446] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:40:50,500] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:42:13,156] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:42:13,396] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:42:13,628] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:42:14,029] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:42:14,547] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:42:14,845] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:42:15,844] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:42:15,884] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:42:15,937] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:42:16,190] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:44:05,096] [notubiz.main] [INFO] - Scraping meeting: 1179809
+[2025-02-14 12:44:05,119] [notubiz.main] [INFO] - Scraping meeting: 1190550
+[2025-02-14 12:44:05,136] [notubiz.main] [INFO] - Scraping meeting: 1190543
+[2025-02-14 12:44:05,144] [notubiz.main] [INFO] - Scraping meeting: 1161196
+[2025-02-14 12:44:05,180] [notubiz.main] [INFO] - Scraping meeting: 1202264
+[2025-02-14 12:44:05,204] [notubiz.main] [INFO] - Scraping meeting: 1161293
+[2025-02-14 12:44:05,356] [notubiz.main] [INFO] - Scraping meeting: 1179810
+[2025-02-14 12:44:05,361] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 12:44:05,374] [notubiz.main] [INFO] - Scraping meeting: 1161529
+[2025-02-14 12:44:05,449] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 12:44:05,467] [notubiz.main] [INFO] - Scraping meeting: 1161574
+[2025-02-14 12:44:05,474] [notubiz.main] [INFO] - Scraping meeting: 1161295
+[2025-02-14 12:44:05,522] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 12:44:05,539] [notubiz.main] [INFO] - Scraping meeting: 1161577
+[2025-02-14 12:44:05,540] [notubiz.main] [INFO] - Scraping meeting: 1161522
+[2025-02-14 12:44:05,619] [notubiz.main] [INFO] - Scraping meeting: 1208488
+[2025-02-14 12:44:05,696] [notubiz.main] [INFO] - Scraping meeting: 1179811
+[2025-02-14 12:44:05,743] [notubiz.main] [INFO] - Scraping meeting: 1161305
+[2025-02-14 12:44:05,760] [notubiz.main] [INFO] - Scraping meeting: 1161662
+[2025-02-14 12:44:05,767] [notubiz.main] [INFO] - Scraping meeting: 1161307
+[2025-02-14 12:44:05,781] [notubiz.main] [INFO] - Scraping meeting: 1161533
+[2025-02-14 12:44:05,782] [notubiz.main] [INFO] - Scraping meeting: 1161661
+[2025-02-14 12:44:05,825] [notubiz.main] [INFO] - Scraping meeting: 1224828
+[2025-02-14 12:44:05,931] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 12:44:05,943] [notubiz.main] [INFO] - Scraping meeting: 1161587
+[2025-02-14 12:44:05,957] [notubiz.main] [INFO] - Scraping meeting: 1161664
+[2025-02-14 12:44:05,975] [notubiz.main] [INFO] - Scraping meeting: 1161535
+[2025-02-14 12:44:06,068] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 12:44:06,135] [notubiz.main] [INFO] - Scraping meeting: 1179814
+[2025-02-14 12:44:06,177] [notubiz.main] [INFO] - Scraping meeting: 1161665
+[2025-02-14 12:44:06,228] [notubiz.main] [INFO] - Scraping meeting: 1161310
+[2025-02-14 12:44:06,232] [notubiz.main] [INFO] - Scraping meeting: 1217851
+[2025-02-14 12:44:06,241] [notubiz.main] [INFO] - Scraping meeting: 1161588
+[2025-02-14 12:44:06,248] [notubiz.main] [INFO] - Scraping meeting: 1161541
+[2025-02-14 12:44:06,340] [notubiz.main] [INFO] - Scraping meeting: 1253991
+[2025-02-14 12:44:06,396] [notubiz.main] [INFO] - Scraping meeting: 1233198
+[2025-02-14 12:44:06,427] [notubiz.main] [INFO] - Scraping meeting: 1161675
+[2025-02-14 12:44:06,449] [notubiz.main] [INFO] - Scraping meeting: 1254769
+[2025-02-14 12:44:06,460] [notubiz.main] [INFO] - Scraping meeting: 1254767
+[2025-02-14 12:44:06,477] [notubiz.main] [INFO] - Scraping meeting: 1254768
+[2025-02-14 12:44:06,527] [notubiz.main] [INFO] - Scraping meeting: 1254770
+[2025-02-14 12:44:06,530] [notubiz.main] [INFO] - Scraping meeting: 1233222
+[2025-02-14 12:44:06,597] [notubiz.main] [INFO] - Scraping meeting: 1161543
+[2025-02-14 12:44:06,649] [notubiz.main] [INFO] - Scraping meeting: 1161674
+[2025-02-14 12:44:06,655] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 12:44:06,657] [notubiz.main] [INFO] - Scraping meeting: 1161602
+[2025-02-14 12:44:06,726] [notubiz.main] [INFO] - Scraping meeting: 1254772
+[2025-02-14 12:44:06,727] [notubiz.main] [INFO] - Scraping meeting: 1161613
+[2025-02-14 12:44:06,731] [notubiz.main] [INFO] - Scraping meeting: 1254774
+[2025-02-14 12:44:06,788] [notubiz.main] [INFO] - Scraping meeting: 1254771
+[2025-02-14 12:44:06,916] [notubiz.main] [INFO] - Scraping meeting: 1161689
+[2025-02-14 12:44:06,923] [notubiz.main] [INFO] - Scraping meeting: 1254775
+[2025-02-14 12:44:06,936] [notubiz.main] [INFO] - Scraping meeting: 1161546
+[2025-02-14 12:44:06,985] [notubiz.main] [INFO] - Scraping meeting: 1254784
+[2025-02-14 12:44:07,097] [notubiz.main] [INFO] - Scraping meeting: 1179818
+[2025-02-14 12:44:07,097] [notubiz.main] [INFO] - Scraping meeting: 1254786
+[2025-02-14 12:44:07,111] [notubiz.main] [INFO] - Scraping meeting: 1161317
+[2025-02-14 12:44:07,129] [notubiz.main] [INFO] - Scraping meeting: 1161650
+[2025-02-14 12:44:07,216] [notubiz.main] [INFO] - Scraping meeting: 1254791
+[2025-02-14 12:44:07,224] [notubiz.main] [INFO] - Scraping meeting: 1254788
+[2025-02-14 12:44:07,224] [notubiz.main] [INFO] - Scraping meeting: 1269368
+[2025-02-14 12:44:07,230] [notubiz.main] [INFO] - Scraping meeting: 1161549
+[2025-02-14 12:44:07,239] [notubiz.main] [INFO] - Scraping meeting: 1279028
+[2025-02-14 12:44:07,336] [notubiz.main] [INFO] - Scraping meeting: 1161656
+[2025-02-14 12:44:07,345] [notubiz.main] [INFO] - Scraping meeting: 1254793
+[2025-02-14 12:44:07,379] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 12:44:07,442] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 12:44:07,442] [notubiz.main] [INFO] - Scraping meeting: 1161651
+[2025-02-14 12:44:07,461] [notubiz.main] [INFO] - Scraping meeting: 1296085
+[2025-02-14 12:44:07,481] [notubiz.main] [INFO] - Scraping meeting: 1161680
+[2025-02-14 12:44:07,564] [notubiz.main] [INFO] - Scraping meeting: 1254794
+[2025-02-14 12:44:07,589] [notubiz.main] [INFO] - Scraping meeting: 1254800
+[2025-02-14 12:44:07,641] [notubiz.main] [INFO] - Scraping meeting: 1254797
+[2025-02-14 12:44:07,646] [notubiz.main] [INFO] - Scraping meeting: 1181717
+[2025-02-14 12:44:07,665] [notubiz.main] [INFO] - Scraping meeting: 1291781
+[2025-02-14 12:44:07,679] [notubiz.main] [INFO] - Scraping meeting: 1161681
+[2025-02-14 12:44:07,709] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 12:44:07,742] [notubiz.main] [INFO] - Scraping meeting: 1254801
+[2025-02-14 12:44:07,792] [notubiz.main] [INFO] - Scraping meeting: 1161548
+[2025-02-14 12:44:07,843] [notubiz.main] [INFO] - Scraping meeting: 1254802
+[2025-02-14 12:44:07,867] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 12:44:07,960] [notubiz.main] [INFO] - Scraping meeting: 1254803
+[2025-02-14 12:44:08,006] [notubiz.main] [INFO] - Scraping meeting: 1161690
+[2025-02-14 12:44:08,180] [notubiz.main] [INFO] - Scraping meeting: 1161553
+[2025-02-14 12:44:08,537] [notubiz.main] [INFO] - Scraping meeting: 1161692
+[2025-02-14 12:44:23,096] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,286] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,294] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,395] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,519] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,528] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,604] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,606] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,606] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,609] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,685] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,700] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,782] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,782] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,818] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,823] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,823] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,857] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,865] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,875] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,875] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,915] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,916] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:23,916] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,009] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,024] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,122] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,212] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,213] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,217] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,218] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,235] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,292] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,315] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,399] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,426] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,430] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,451] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,456] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,456] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,568] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,568] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,637] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,649] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,682] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,715] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,715] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,728] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,727] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,783] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,784] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,797] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,810] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,884] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,912] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:24,930] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,006] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,012] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,017] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,021] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,074] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,099] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,146] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,171] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,171] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,231] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,285] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,288] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,301] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,366] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,366] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,373] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,390] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,417] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,417] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,429] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 12:44:25,451] [notubiz.main] [WARNING] - No attachments found for module item
+[2025-02-14 14:09:50,582] [notubiz.main] [INFO] - Scraping meeting: 1190543
+[2025-02-14 14:09:50,585] [notubiz.main] [INFO] - Scraping meeting: 1161293
+[2025-02-14 14:09:50,640] [notubiz.main] [INFO] - Scraping meeting: 1202264
+[2025-02-14 14:09:50,691] [notubiz.main] [INFO] - Scraping meeting: 1179809
+[2025-02-14 14:09:50,708] [notubiz.main] [INFO] - Scraping meeting: 1161196
+[2025-02-14 14:09:50,766] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 14:09:50,778] [notubiz.main] [INFO] - Scraping meeting: 1190550
+[2025-02-14 14:09:50,861] [notubiz.main] [INFO] - Scraping meeting: 1179810
+[2025-02-14 14:09:50,906] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 14:09:50,943] [notubiz.main] [INFO] - Scraping meeting: 1161529
+[2025-02-14 14:09:50,994] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 14:09:50,997] [notubiz.main] [INFO] - Scraping meeting: 1161574
+[2025-02-14 14:09:51,047] [notubiz.main] [INFO] - Scraping meeting: 1161295
+[2025-02-14 14:09:51,060] [notubiz.main] [INFO] - Scraping meeting: 1161522
+[2025-02-14 14:09:51,094] [notubiz.main] [INFO] - Scraping meeting: 1161577
+[2025-02-14 14:09:51,119] [notubiz.main] [INFO] - Scraping meeting: 1208488
+[2025-02-14 14:09:51,132] [notubiz.main] [INFO] - Scraping meeting: 1161305
+[2025-02-14 14:09:51,272] [notubiz.main] [INFO] - Scraping meeting: 1179811
+[2025-02-14 14:09:51,326] [notubiz.main] [INFO] - Scraping meeting: 1161533
+[2025-02-14 14:09:51,385] [notubiz.main] [INFO] - Scraping meeting: 1161307
+[2025-02-14 14:09:51,417] [notubiz.main] [INFO] - Scraping meeting: 1224828
+[2025-02-14 14:09:51,417] [notubiz.main] [INFO] - Scraping meeting: 1161662
+[2025-02-14 14:09:51,456] [notubiz.main] [INFO] - Scraping meeting: 1161587
+[2025-02-14 14:09:51,490] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 14:09:51,514] [notubiz.main] [INFO] - Scraping meeting: 1161661
+[2025-02-14 14:09:51,637] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 14:09:51,637] [notubiz.main] [INFO] - Scraping meeting: 1161664
+[2025-02-14 14:09:51,706] [notubiz.main] [INFO] - Scraping meeting: 1161535
+[2025-02-14 14:09:51,754] [notubiz.main] [INFO] - Scraping meeting: 1179814
+[2025-02-14 14:09:51,784] [notubiz.main] [INFO] - Scraping meeting: 1161541
+[2025-02-14 14:09:51,853] [notubiz.main] [INFO] - Scraping meeting: 1161665
+[2025-02-14 14:09:51,874] [notubiz.main] [INFO] - Scraping meeting: 1217851
+[2025-02-14 14:09:51,886] [notubiz.main] [INFO] - Scraping meeting: 1161588
+[2025-02-14 14:09:51,902] [notubiz.main] [INFO] - Scraping meeting: 1253991
+[2025-02-14 14:09:51,909] [notubiz.main] [INFO] - Scraping meeting: 1161310
+[2025-02-14 14:09:52,002] [notubiz.main] [INFO] - Scraping meeting: 1233198
+[2025-02-14 14:09:52,061] [notubiz.main] [INFO] - Scraping meeting: 1254767
+[2025-02-14 14:09:52,091] [notubiz.main] [INFO] - Scraping meeting: 1254768
+[2025-02-14 14:09:52,102] [notubiz.main] [INFO] - Scraping meeting: 1161675
+[2025-02-14 14:09:52,138] [notubiz.main] [INFO] - Scraping meeting: 1254769
+[2025-02-14 14:09:52,150] [notubiz.main] [INFO] - Scraping meeting: 1233222
+[2025-02-14 14:09:52,152] [notubiz.main] [INFO] - Scraping meeting: 1254770
+[2025-02-14 14:09:52,225] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 14:09:52,249] [notubiz.main] [INFO] - Scraping meeting: 1254771
+[2025-02-14 14:09:52,322] [notubiz.main] [INFO] - Scraping meeting: 1161674
+[2025-02-14 14:09:52,360] [notubiz.main] [INFO] - Scraping meeting: 1161613
+[2025-02-14 14:09:52,379] [notubiz.main] [INFO] - Scraping meeting: 1254772
+[2025-02-14 14:09:52,384] [notubiz.main] [INFO] - Scraping meeting: 1161543
+[2025-02-14 14:09:52,384] [notubiz.main] [INFO] - Scraping meeting: 1254774
+[2025-02-14 14:09:52,473] [notubiz.main] [INFO] - Scraping meeting: 1254775
+[2025-02-14 14:09:52,492] [notubiz.main] [INFO] - Scraping meeting: 1161317
+[2025-02-14 14:09:52,500] [notubiz.main] [INFO] - Scraping meeting: 1161602
+[2025-02-14 14:09:52,510] [notubiz.main] [INFO] - Scraping meeting: 1161689
+[2025-02-14 14:09:52,522] [notubiz.main] [INFO] - Scraping meeting: 1254784
+[2025-02-14 14:09:52,594] [notubiz.main] [INFO] - Scraping meeting: 1254786
+[2025-02-14 14:09:52,640] [notubiz.main] [INFO] - Scraping meeting: 1161546
+[2025-02-14 14:09:52,678] [notubiz.main] [INFO] - Scraping meeting: 1254788
+[2025-02-14 14:09:52,799] [notubiz.main] [INFO] - Scraping meeting: 1161650
+[2025-02-14 14:09:52,799] [notubiz.main] [INFO] - Scraping meeting: 1279028
+[2025-02-14 14:09:52,805] [notubiz.main] [INFO] - Scraping meeting: 1179818
+[2025-02-14 14:09:52,867] [notubiz.main] [INFO] - Scraping meeting: 1254791
+[2025-02-14 14:09:52,867] [notubiz.main] [INFO] - Scraping meeting: 1269368
+[2025-02-14 14:09:52,915] [notubiz.main] [INFO] - Scraping meeting: 1161656
+[2025-02-14 14:09:52,941] [notubiz.main] [INFO] - Scraping meeting: 1161549
+[2025-02-14 14:09:52,999] [notubiz.main] [INFO] - Scraping meeting: 1254793
+[2025-02-14 14:09:53,017] [notubiz.main] [INFO] - Scraping meeting: 1161651
+[2025-02-14 14:09:53,081] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 14:09:53,092] [notubiz.main] [INFO] - Scraping meeting: 1254794
+[2025-02-14 14:09:53,107] [notubiz.main] [INFO] - Scraping meeting: 1161680
+[2025-02-14 14:09:53,114] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 14:09:53,118] [notubiz.main] [INFO] - Scraping meeting: 1296085
+[2025-02-14 14:09:53,120] [notubiz.main] [INFO] - Scraping meeting: 1161548
+[2025-02-14 14:09:53,140] [notubiz.main] [INFO] - Scraping meeting: 1254797
+[2025-02-14 14:09:53,174] [notubiz.main] [INFO] - Scraping meeting: 1254800
+[2025-02-14 14:09:53,216] [notubiz.main] [INFO] - Scraping meeting: 1291781
+[2025-02-14 14:09:53,304] [notubiz.main] [INFO] - Scraping meeting: 1181717
+[2025-02-14 14:09:53,310] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 14:09:53,322] [notubiz.main] [INFO] - Scraping meeting: 1254801
+[2025-02-14 14:09:53,391] [notubiz.main] [INFO] - Scraping meeting: 1254802
+[2025-02-14 14:09:53,391] [notubiz.main] [INFO] - Scraping meeting: 1254803
+[2025-02-14 14:09:53,391] [notubiz.main] [INFO] - Scraping meeting: 1161681
+[2025-02-14 14:09:53,429] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 14:09:53,454] [notubiz.main] [INFO] - Scraping meeting: 1161690
+[2025-02-14 14:09:53,839] [notubiz.main] [INFO] - Scraping meeting: 1161553
+[2025-02-14 14:09:54,017] [notubiz.main] [INFO] - Scraping meeting: 1161692
+[2025-02-14 14:10:10,830] [notubiz.main] [WARNING] - No attachments found for module item: 57fc4340-c24e-40ba-8d5c-f3afc669b4f0
+[2025-02-14 14:10:11,026] [notubiz.main] [WARNING] - No attachments found for module item: 5d4551ed-c5fe-407b-a191-9c42996cd98d
+[2025-02-14 14:10:11,064] [notubiz.main] [WARNING] - No attachments found for module item: 5d4551ed-c5fe-407b-a191-9c42996cd98d
+[2025-02-14 14:10:11,080] [notubiz.main] [WARNING] - No attachments found for module item: d9a979a2-0eef-43eb-a314-8c61d3c605aa
+[2025-02-14 14:10:11,081] [notubiz.main] [WARNING] - No attachments found for module item: b4b67cf0-dfe7-4580-b465-3a2c39abe787
+[2025-02-14 14:10:11,135] [notubiz.main] [WARNING] - No attachments found for module item: a0a4cbcb-01a0-44b6-a83b-89e59aca3377
+[2025-02-14 14:10:11,168] [notubiz.main] [WARNING] - No attachments found for module item: b4b67cf0-dfe7-4580-b465-3a2c39abe787
+[2025-02-14 14:10:11,272] [notubiz.main] [WARNING] - No attachments found for module item: a0a4cbcb-01a0-44b6-a83b-89e59aca3377
+[2025-02-14 14:10:11,358] [notubiz.main] [WARNING] - No attachments found for module item: a0a4cbcb-01a0-44b6-a83b-89e59aca3377
+[2025-02-14 14:10:11,359] [notubiz.main] [WARNING] - No attachments found for module item: b4b67cf0-dfe7-4580-b465-3a2c39abe787
+[2025-02-14 14:10:11,437] [notubiz.main] [WARNING] - No attachments found for module item: 9638e9dd-5b00-406a-9eba-9880ae3cbd29
+[2025-02-14 14:10:11,437] [notubiz.main] [WARNING] - No attachments found for module item: 0fcf8643-9aa0-4576-b88f-e51f1111fecd
+[2025-02-14 14:10:11,459] [notubiz.main] [WARNING] - No attachments found for module item: 9638e9dd-5b00-406a-9eba-9880ae3cbd29
+[2025-02-14 14:10:11,469] [notubiz.main] [WARNING] - No attachments found for module item: 3d54c429-5af3-4f9a-be5b-b3bdd28da7a1
+[2025-02-14 14:10:11,523] [notubiz.main] [WARNING] - No attachments found for module item: 7aa9ecd8-c6af-4f20-8cf5-863d91acdf64
+[2025-02-14 14:10:11,553] [notubiz.main] [WARNING] - No attachments found for module item: 73d67dac-1ab0-4ae4-a3b8-1c60298174ea
+[2025-02-14 14:10:11,616] [notubiz.main] [WARNING] - No attachments found for module item: 9638e9dd-5b00-406a-9eba-9880ae3cbd29
+[2025-02-14 14:10:11,620] [notubiz.main] [WARNING] - No attachments found for module item: 9638e9dd-5b00-406a-9eba-9880ae3cbd29
+[2025-02-14 14:10:11,646] [notubiz.main] [WARNING] - No attachments found for module item: 4d87de36-99af-4f01-986c-ffee51c853d9
+[2025-02-14 14:10:11,698] [notubiz.main] [WARNING] - No attachments found for module item: 7aa9ecd8-c6af-4f20-8cf5-863d91acdf64
+[2025-02-14 14:10:11,701] [notubiz.main] [WARNING] - No attachments found for module item: 7aa9ecd8-c6af-4f20-8cf5-863d91acdf64
+[2025-02-14 14:10:11,726] [notubiz.main] [WARNING] - No attachments found for module item: dedd6784-8290-42ff-ae08-d284c7495cf4
+[2025-02-14 14:10:11,800] [notubiz.main] [WARNING] - No attachments found for module item: bb2e952c-459c-472d-bf2c-783d338bb58b
+[2025-02-14 14:10:11,817] [notubiz.main] [WARNING] - No attachments found for module item: 73d67dac-1ab0-4ae4-a3b8-1c60298174ea
+[2025-02-14 14:10:11,922] [notubiz.main] [WARNING] - No attachments found for module item: a1aabf48-e683-4fea-884f-7e66c44481ac
+[2025-02-14 14:10:11,935] [notubiz.main] [WARNING] - No attachments found for module item: d50d3e3b-526e-4cb9-9e79-f8db4152b068
+[2025-02-14 14:10:11,935] [notubiz.main] [WARNING] - No attachments found for module item: 774b150f-0433-4a46-bf98-1ead1977aa5a
+[2025-02-14 14:10:11,981] [notubiz.main] [WARNING] - No attachments found for module item: 8564fed6-4379-47d9-9d96-795dcaa79e87
+[2025-02-14 14:10:11,993] [notubiz.main] [WARNING] - No attachments found for module item: 73d67dac-1ab0-4ae4-a3b8-1c60298174ea
+[2025-02-14 14:10:11,994] [notubiz.main] [WARNING] - No attachments found for module item: 4d87de36-99af-4f01-986c-ffee51c853d9
+[2025-02-14 14:10:12,114] [notubiz.main] [WARNING] - No attachments found for module item: 1f282420-487b-480d-865f-5063e02f7d3b
+[2025-02-14 14:10:12,182] [notubiz.main] [WARNING] - No attachments found for module item: 41709b77-1986-4738-9d97-1c9f70579eb0
+[2025-02-14 14:10:12,184] [notubiz.main] [WARNING] - No attachments found for module item: cc053547-20ee-4c27-9f8c-51ea12abffa0
+[2025-02-14 14:10:12,185] [notubiz.main] [WARNING] - No attachments found for module item: 913bd68c-d79f-4884-a7e3-a457882cec1c
+[2025-02-14 14:10:12,187] [notubiz.main] [WARNING] - No attachments found for module item: 1f282420-487b-480d-865f-5063e02f7d3b
+[2025-02-14 14:10:12,188] [notubiz.main] [WARNING] - No attachments found for module item: 1f282420-487b-480d-865f-5063e02f7d3b
+[2025-02-14 14:10:12,209] [notubiz.main] [WARNING] - No attachments found for module item: ac65e2f0-280d-41b5-ba35-78e6f2f7a41d
+[2025-02-14 14:10:12,333] [notubiz.main] [WARNING] - No attachments found for module item: 22dbc387-6b5d-4021-9760-e0eec81673f1
+[2025-02-14 14:10:12,347] [notubiz.main] [WARNING] - No attachments found for module item: aef218db-0b40-41a1-b8f2-fa2ab2c75683
+[2025-02-14 14:10:12,372] [notubiz.main] [WARNING] - No attachments found for module item: aef218db-0b40-41a1-b8f2-fa2ab2c75683
+[2025-02-14 14:10:12,422] [notubiz.main] [WARNING] - No attachments found for module item: cf28cf42-5254-4260-b02f-0f2b8831f72a
+[2025-02-14 14:10:12,438] [notubiz.main] [WARNING] - No attachments found for module item: fb19e154-699c-441d-8976-336f87345a75
+[2025-02-14 14:10:12,477] [notubiz.main] [WARNING] - No attachments found for module item: fb19e154-699c-441d-8976-336f87345a75
+[2025-02-14 14:10:12,480] [notubiz.main] [WARNING] - No attachments found for module item: 0e79a804-b0f6-448f-b018-85e449687e29
+[2025-02-14 14:10:12,480] [notubiz.main] [WARNING] - No attachments found for module item: f1e6d328-c592-4bea-aada-b5a3ef79fae5
+[2025-02-14 14:10:12,481] [notubiz.main] [WARNING] - No attachments found for module item: a338b76c-bec2-41c9-ab38-c7abe9a47f9e
+[2025-02-14 14:10:12,605] [notubiz.main] [WARNING] - No attachments found for module item: fb19e154-699c-441d-8976-336f87345a75
+[2025-02-14 14:10:12,661] [notubiz.main] [WARNING] - No attachments found for module item: 2d38ce96-211c-4370-a061-1b0f60a7ca9c
+[2025-02-14 14:10:12,676] [notubiz.main] [WARNING] - No attachments found for module item: fb19e154-699c-441d-8976-336f87345a75
+[2025-02-14 14:10:12,683] [notubiz.main] [WARNING] - No attachments found for module item: fb19e154-699c-441d-8976-336f87345a75
+[2025-02-14 14:10:12,767] [notubiz.main] [WARNING] - No attachments found for module item: fb19e154-699c-441d-8976-336f87345a75
+[2025-02-14 14:10:12,820] [notubiz.main] [WARNING] - No attachments found for module item: 79996977-31fb-4de6-927d-2d6666a9fe2f
+[2025-02-14 14:10:12,824] [notubiz.main] [WARNING] - No attachments found for module item: 2d38ce96-211c-4370-a061-1b0f60a7ca9c
+[2025-02-14 14:10:12,828] [notubiz.main] [WARNING] - No attachments found for module item: 2d38ce96-211c-4370-a061-1b0f60a7ca9c
+[2025-02-14 14:10:12,856] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:12,871] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:12,889] [notubiz.main] [WARNING] - No attachments found for module item: 2d38ce96-211c-4370-a061-1b0f60a7ca9c
+[2025-02-14 14:10:12,894] [notubiz.main] [WARNING] - No attachments found for module item: 2d38ce96-211c-4370-a061-1b0f60a7ca9c
+[2025-02-14 14:10:12,894] [notubiz.main] [WARNING] - No attachments found for module item: 2d38ce96-211c-4370-a061-1b0f60a7ca9c
+[2025-02-14 14:10:12,962] [notubiz.main] [WARNING] - No attachments found for module item: 79996977-31fb-4de6-927d-2d6666a9fe2f
+[2025-02-14 14:10:12,999] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,001] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,053] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,103] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,106] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,260] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,269] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,269] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,269] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,307] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,322] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,322] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,358] [notubiz.main] [WARNING] - No attachments found for module item: 3068cc92-fdfb-40aa-96a8-020af16ed534
+[2025-02-14 14:10:13,359] [notubiz.main] [WARNING] - No attachments found for module item: 2dea786a-d563-4434-b1ec-4b505b56cdcd
+[2025-02-14 14:10:13,384] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,395] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:10:13,418] [notubiz.main] [WARNING] - No attachments found for module item: d005bc43-c96f-4304-b2de-6dabbc697486
+[2025-02-14 14:16:56,696] [notubiz.main] [INFO] - Scraping meeting: 1190550
+[2025-02-14 14:16:56,778] [notubiz.main] [INFO] - Scraping meeting: 1202264
+[2025-02-14 14:16:56,796] [notubiz.main] [INFO] - Scraping meeting: 1179809
+[2025-02-14 14:16:56,831] [notubiz.main] [INFO] - Scraping meeting: 1161293
+[2025-02-14 14:16:56,888] [notubiz.main] [INFO] - Scraping meeting: 1190543
+[2025-02-14 14:16:56,892] [notubiz.main] [INFO] - Scraping meeting: 1161196
+[2025-02-14 14:16:56,929] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1208411
+[2025-02-14 14:16:57,042] [notubiz.main] [INFO] - Scraping meeting: 1161529
+[2025-02-14 14:16:57,065] [notubiz.main] [INFO] - Scraping meeting: 1161574
+[2025-02-14 14:16:57,168] [notubiz.main] [INFO] - Scraping meeting: 1161295
+[2025-02-14 14:16:57,171] [notubiz.main] [INFO] - Scraping meeting: 1179810
+[2025-02-14 14:16:57,251] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1220855
+[2025-02-14 14:16:57,251] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165040
+[2025-02-14 14:16:57,362] [notubiz.main] [INFO] - Scraping meeting: 1161577
+[2025-02-14 14:16:57,364] [notubiz.main] [INFO] - Scraping meeting: 1208488
+[2025-02-14 14:16:57,379] [notubiz.main] [INFO] - Scraping meeting: 1161522
+[2025-02-14 14:16:57,384] [notubiz.main] [INFO] - Scraping meeting: 1161305
+[2025-02-14 14:16:57,424] [notubiz.main] [INFO] - Scraping meeting: 1161533
+[2025-02-14 14:16:57,490] [notubiz.main] [INFO] - Scraping meeting: 1179811
+[2025-02-14 14:16:57,623] [notubiz.main] [INFO] - Scraping meeting: 1161307
+[2025-02-14 14:16:57,652] [notubiz.main] [INFO] - Scraping meeting: 1161661
+[2025-02-14 14:16:57,653] [notubiz.main] [INFO] - Scraping meeting: 1161662
+[2025-02-14 14:16:57,653] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165059
+[2025-02-14 14:16:57,728] [notubiz.main] [INFO] - Scraping meeting: 1161664
+[2025-02-14 14:16:57,738] [notubiz.main] [INFO] - Scraping meeting: 1224828
+[2025-02-14 14:16:57,823] [notubiz.main] [INFO] - Scraping meeting: 1161587
+[2025-02-14 14:16:57,831] [notubiz.main] [INFO] - Scraping meeting: 1161535
+[2025-02-14 14:16:57,953] [notubiz.main] [INFO] - Scraping meeting: 1179814
+[2025-02-14 14:16:58,078] [notubiz.main] [INFO] - Scraping meeting: 1161541
+[2025-02-14 14:16:58,436] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165041
+[2025-02-14 14:16:58,601] [notubiz.main] [INFO] - Scraping meeting: 1253991
+[2025-02-14 14:16:58,644] [notubiz.main] [INFO] - Scraping meeting: 1161665
+[2025-02-14 14:16:58,701] [notubiz.main] [INFO] - Scraping meeting: 1217851
+[2025-02-14 14:16:58,903] [notubiz.main] [INFO] - Scraping meeting: 1254767
+[2025-02-14 14:16:58,906] [notubiz.main] [INFO] - Scraping meeting: 1161310
+[2025-02-14 14:16:58,911] [notubiz.main] [INFO] - Scraping meeting: 1233198
+[2025-02-14 14:16:58,973] [notubiz.main] [INFO] - Scraping meeting: 1254768
+[2025-02-14 14:16:59,025] [notubiz.main] [INFO] - Scraping meeting: 1161588
+[2025-02-14 14:16:59,112] [notubiz.main] [INFO] - Scraping meeting: 1254770
+[2025-02-14 14:16:59,227] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165050
+[2025-02-14 14:16:59,241] [notubiz.main] [INFO] - Scraping meeting: 1161675
+[2025-02-14 14:16:59,252] [notubiz.main] [INFO] - Scraping meeting: 1233222
+[2025-02-14 14:16:59,292] [notubiz.main] [INFO] - Scraping meeting: 1254769
+[2025-02-14 14:16:59,357] [notubiz.main] [INFO] - Scraping meeting: 1254771
+[2025-02-14 14:16:59,358] [notubiz.main] [INFO] - Scraping meeting: 1161674
+[2025-02-14 14:16:59,456] [notubiz.main] [INFO] - Scraping meeting: 1254772
+[2025-02-14 14:16:59,458] [notubiz.main] [INFO] - Scraping meeting: 1161613
+[2025-02-14 14:16:59,494] [notubiz.main] [INFO] - Scraping meeting: 1254775
+[2025-02-14 14:16:59,516] [notubiz.main] [INFO] - Scraping meeting: 1161543
+[2025-02-14 14:16:59,541] [notubiz.main] [INFO] - Scraping meeting: 1254774
+[2025-02-14 14:16:59,603] [notubiz.main] [INFO] - Scraping meeting: 1161602
+[2025-02-14 14:16:59,607] [notubiz.main] [INFO] - Scraping meeting: 1161689
+[2025-02-14 14:16:59,619] [notubiz.main] [INFO] - Scraping meeting: 1254784
+[2025-02-14 14:16:59,627] [notubiz.main] [INFO] - Scraping meeting: 1161317
+[2025-02-14 14:16:59,748] [notubiz.main] [INFO] - Scraping meeting: 1254786
+[2025-02-14 14:16:59,782] [notubiz.main] [INFO] - Scraping meeting: 1161650
+[2025-02-14 14:16:59,824] [notubiz.main] [INFO] - Scraping meeting: 1254788
+[2025-02-14 14:16:59,827] [notubiz.main] [INFO] - Scraping meeting: 1161546
+[2025-02-14 14:16:59,903] [notubiz.main] [INFO] - Scraping meeting: 1179818
+[2025-02-14 14:16:59,965] [notubiz.main] [INFO] - Scraping meeting: 1269368
+[2025-02-14 14:16:59,968] [notubiz.main] [INFO] - Scraping meeting: 1279028
+[2025-02-14 14:17:00,069] [notubiz.main] [INFO] - Scraping meeting: 1254793
+[2025-02-14 14:17:00,102] [notubiz.main] [INFO] - Scraping meeting: 1254791
+[2025-02-14 14:17:00,111] [notubiz.main] [INFO] - Scraping meeting: 1161656
+[2025-02-14 14:17:00,145] [notubiz.main] [INFO] - Scraping meeting: 1254794
+[2025-02-14 14:17:00,167] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165048
+[2025-02-14 14:17:00,167] [notubiz.main] [INFO] - Scraping meeting: 1161549
+[2025-02-14 14:17:00,270] [notubiz.main] [INFO] - Scraping meeting: 1161651
+[2025-02-14 14:17:00,354] [notubiz.main] [INFO] - Scraping meeting: 1296085
+[2025-02-14 14:17:00,448] [notubiz.main] [INFO] - Scraping meeting: 1254797
+[2025-02-14 14:17:00,457] [notubiz.main] [INFO] - Scraping meeting: 1161548
+[2025-02-14 14:17:00,470] [notubiz.main] [INFO] - Scraping meeting: 1254800
+[2025-02-14 14:17:00,480] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1286233
+[2025-02-14 14:17:00,531] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1165065
+[2025-02-14 14:17:00,595] [notubiz.main] [INFO] - Scraping meeting: 1181717
+[2025-02-14 14:17:00,615] [notubiz.main] [INFO] - Scraping meeting: 1161680
+[2025-02-14 14:17:00,658] [notubiz.main] [INFO] - Scraping meeting: 1161690
+[2025-02-14 14:17:00,674] [notubiz.main] [INFO] - Scraping meeting: 1161681
+[2025-02-14 14:17:00,798] [notubiz.main] [INFO] - Scraping meeting: 1254801
+[2025-02-14 14:17:00,804] [notubiz.main] [INFO] - Scraping meeting: 1291781
+[2025-02-14 14:17:01,126] [notubiz.main] [WARNING] - Error retrieving meeting data: 401, https://api.notubiz.nl/events/meetings/1161654
+[2025-02-14 14:17:01,237] [notubiz.main] [INFO] - Scraping meeting: 1254803
+[2025-02-14 14:17:01,237] [notubiz.main] [INFO] - Scraping meeting: 1254802
+[2025-02-14 14:17:01,577] [notubiz.main] [INFO] - Scraping meeting: 1161692
+[2025-02-14 14:17:01,687] [notubiz.main] [INFO] - Scraping meeting: 1161553
+[2025-02-14 14:17:04,128] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:04,129] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:04,130] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:04,130] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:04,131] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:04,185] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:04,405] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:04,649] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:04,735] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:04,784] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,059] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,074] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,151] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,152] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,153] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,154] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,155] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,156] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,159] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,170] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,253] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,280] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,337] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:05,466] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:14,896] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,165] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,166] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,167] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,168] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,169] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,170] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,171] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,171] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,172] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,173] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,174] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,174] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,175] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,176] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,177] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,178] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,179] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:15,317] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,081] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,266] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,267] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,268] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,268] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,269] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,270] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,271] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,275] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,288] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,289] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,290] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,400] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,492] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,823] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:16,823] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:17,524] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:17,530] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:18,471] [notubiz.main] [WARNING] - No attachments found for module item: 3cb1e895-9026-476c-9d2e-95abd5e87a32
+[2025-02-14 14:17:18,876] [notubiz.main] [WARNING] - No attachments found for module item: 8dc12171-7fad-469d-9fe9-ed6558d65b20
+[2025-02-14 14:17:18,964] [notubiz.main] [WARNING] - No attachments found for module item: 8dc12171-7fad-469d-9fe9-ed6558d65b20
+[2025-02-14 14:17:18,995] [notubiz.main] [WARNING] - No attachments found for module item: 62ed6d09-f6f7-43f4-8c84-7c2ed798fc07
+[2025-02-14 14:17:18,995] [notubiz.main] [WARNING] - No attachments found for module item: 62ed6d09-f6f7-43f4-8c84-7c2ed798fc07
+[2025-02-14 14:17:19,120] [notubiz.main] [WARNING] - No attachments found for module item: 8dc12171-7fad-469d-9fe9-ed6558d65b20
+[2025-02-14 14:17:19,205] [notubiz.main] [WARNING] - No attachments found for module item: 9d23740d-ee10-4931-ac3a-951509f4bbac
+[2025-02-14 14:17:19,223] [notubiz.main] [WARNING] - No attachments found for module item: 1139ce99-3817-496e-bd87-ac717d1fb73c
+[2025-02-14 14:17:19,363] [notubiz.main] [WARNING] - No attachments found for module item: 1139ce99-3817-496e-bd87-ac717d1fb73c
+[2025-02-14 14:17:19,396] [notubiz.main] [WARNING] - No attachments found for module item: 1139ce99-3817-496e-bd87-ac717d1fb73c
+[2025-02-14 14:17:19,470] [notubiz.main] [WARNING] - No attachments found for module item: a69b9873-2160-48f9-9250-c78790f7f855
+[2025-02-14 14:17:19,867] [notubiz.main] [WARNING] - No attachments found for module item: 32ae0624-b718-4b90-8987-4460ab19b26d
+[2025-02-14 14:17:20,008] [notubiz.main] [WARNING] - No attachments found for module item: 32ae0624-b718-4b90-8987-4460ab19b26d
+[2025-02-14 14:17:20,166] [notubiz.main] [WARNING] - No attachments found for module item: 17403762-c851-46e5-86b8-32f8ea2d5a55
+[2025-02-14 14:17:20,205] [notubiz.main] [WARNING] - No attachments found for module item: 32ae0624-b718-4b90-8987-4460ab19b26d
+[2025-02-14 14:17:20,208] [notubiz.main] [WARNING] - No attachments found for module item: 32ae0624-b718-4b90-8987-4460ab19b26d
+[2025-02-14 14:17:20,208] [notubiz.main] [WARNING] - No attachments found for module item: 17403762-c851-46e5-86b8-32f8ea2d5a55
+[2025-02-14 14:17:20,226] [notubiz.main] [WARNING] - No attachments found for module item: f0890614-55b4-4f3a-9a29-57ce62fe946b
+[2025-02-14 14:17:20,277] [notubiz.main] [WARNING] - No attachments found for module item: 17403762-c851-46e5-86b8-32f8ea2d5a55
+[2025-02-14 14:17:20,352] [notubiz.main] [WARNING] - No attachments found for module item: 99bfc620-e198-4876-9dd0-17795dda96d3
+[2025-02-14 14:17:20,453] [notubiz.main] [WARNING] - No attachments found for module item: 6a2fd0fb-77f1-4024-88ae-56e6cfb2eb03
+[2025-02-14 14:17:20,597] [notubiz.main] [WARNING] - No attachments found for module item: 6a2fd0fb-77f1-4024-88ae-56e6cfb2eb03
+[2025-02-14 14:17:20,772] [notubiz.main] [WARNING] - No attachments found for module item: 6a2fd0fb-77f1-4024-88ae-56e6cfb2eb03
+[2025-02-14 14:17:20,801] [notubiz.main] [WARNING] - No attachments found for module item: 8ad946f1-1bd3-4f78-a7ae-b2ec2178335e
+[2025-02-14 14:17:20,864] [notubiz.main] [WARNING] - No attachments found for module item: 8ad946f1-1bd3-4f78-a7ae-b2ec2178335e
+[2025-02-14 14:17:20,996] [notubiz.main] [WARNING] - No attachments found for module item: f9c323bd-c33b-4a81-ac40-c5d5d549ec83
+[2025-02-14 14:17:21,185] [notubiz.main] [WARNING] - No attachments found for module item: 21ebd5c3-1249-46cb-9b1d-02bb5ac7850c
+[2025-02-14 14:17:21,219] [notubiz.main] [WARNING] - No attachments found for module item: fbb96bdf-328d-4f2a-84ab-78fecdbecd31
+[2025-02-14 14:17:21,221] [notubiz.main] [WARNING] - No attachments found for module item: d7f217b7-8e40-4ef6-9f8c-2178df7f6855
+[2025-02-14 14:17:21,625] [notubiz.main] [WARNING] - No attachments found for module item: 2e132403-08f9-4f51-baf7-c5fc04b038bd
+[2025-02-14 14:17:21,945] [notubiz.main] [WARNING] - No attachments found for module item: 48eedf70-c549-42e3-bd40-0adca1a6ed35
+[2025-02-14 14:17:21,983] [notubiz.main] [WARNING] - No attachments found for module item: cd34bcc4-21a3-47d4-8d49-5c6f7a1edf0e
+[2025-02-14 14:17:22,016] [notubiz.main] [WARNING] - No attachments found for module item: 725fa11b-43b9-441b-b067-e2ea955980e3
+[2025-02-14 14:17:22,406] [notubiz.main] [WARNING] - No attachments found for module item: 5ac11541-9de4-4e34-8d54-cac9479a7c79
+[2025-02-14 14:17:22,805] [notubiz.main] [WARNING] - No attachments found for module item: 545abc2c-5ea0-4bb4-9cce-7e545d0793c9
+[2025-02-14 14:17:23,072] [notubiz.main] [WARNING] - No attachments found for module item: e5948207-bc4c-4f89-bcf2-24aa00e695de
+[2025-02-14 14:17:23,072] [notubiz.main] [WARNING] - No attachments found for module item: b2f09124-35b4-4bbd-a5ea-70e2b6236492
+[2025-02-14 14:17:23,139] [notubiz.main] [WARNING] - No attachments found for module item: a3799279-d025-42eb-bb2e-fd99e5e62347
+[2025-02-14 14:17:23,139] [notubiz.main] [WARNING] - No attachments found for module item: 05de7659-9f2e-433a-84c6-09838fc9594a
+[2025-02-14 14:17:23,222] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,222] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,248] [notubiz.main] [WARNING] - No attachments found for module item: 498dbd40-7c80-486f-91b8-d6f5384763c9
+[2025-02-14 14:17:23,341] [notubiz.main] [WARNING] - No attachments found for module item: a3799279-d025-42eb-bb2e-fd99e5e62347
+[2025-02-14 14:17:23,341] [notubiz.main] [WARNING] - No attachments found for module item: a3799279-d025-42eb-bb2e-fd99e5e62347
+[2025-02-14 14:17:23,341] [notubiz.main] [WARNING] - No attachments found for module item: 05de7659-9f2e-433a-84c6-09838fc9594a
+[2025-02-14 14:17:23,408] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,408] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,497] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,496] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,500] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,534] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,564] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,584] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,646] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,685] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,809] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,809] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,834] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:23,927] [notubiz.main] [INFO] - Not an agenda point
+[2025-02-14 14:17:23,956] [notubiz.main] [WARNING] - No attachments found for module item: 2f379f09-0639-48bf-a057-24c9a817ac10
+[2025-02-14 14:17:24,055] [notubiz.main] [WARNING] - No attachments found for module item: 2f379f09-0639-48bf-a057-24c9a817ac10
+[2025-02-14 14:17:24,108] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:24,118] [notubiz.main] [WARNING] - No attachments found for module item: 3aab9a9f-4740-4092-9968-4a10c38ffc4d
+[2025-02-14 14:17:24,140] [notubiz.main] [WARNING] - No attachments found for module item: 2f379f09-0639-48bf-a057-24c9a817ac10
+[2025-02-14 14:17:24,145] [notubiz.main] [WARNING] - No attachments found for module item: 2f379f09-0639-48bf-a057-24c9a817ac10
+[2025-02-14 14:17:24,155] [notubiz.main] [WARNING] - No attachments found for module item: 080915c1-6524-4eb7-b58d-9a110f3c799e
+[2025-02-14 14:17:24,187] [notubiz.main] [WARNING] - No attachments found for module item: 5c30c9ef-cc18-4cfe-ac96-3e8c9ec5b8a5
+[2025-02-14 14:17:24,282] [notubiz.main] [WARNING] - No attachments found for module item: 2f379f09-0639-48bf-a057-24c9a817ac10
+[2025-02-14 14:17:24,314] [notubiz.main] [WARNING] - No attachments found for module item: 080915c1-6524-4eb7-b58d-9a110f3c799e
+[2025-02-14 14:17:24,337] [notubiz.main] [WARNING] - No attachments found for module item: 2f379f09-0639-48bf-a057-24c9a817ac10
+[2025-02-14 14:17:24,385] [notubiz.main] [WARNING] - No attachments found for module item: 7ffc2a19-72e7-4c00-8abe-ca566f84ea7e
+[2025-02-14 14:17:24,420] [notubiz.main] [WARNING] - No attachments found for module item: 080915c1-6524-4eb7-b58d-9a110f3c799e
+[2025-02-14 14:17:24,420] [notubiz.main] [WARNING] - No attachments found for module item: 080915c1-6524-4eb7-b58d-9a110f3c799e
+[2025-02-14 14:17:24,534] [notubiz.main] [WARNING] - No attachments found for module item: a5139d90-2cf0-4d5c-ba07-063cac07edb8
+[2025-02-14 14:17:24,591] [notubiz.main] [WARNING] - No attachments found for module item: 080915c1-6524-4eb7-b58d-9a110f3c799e
+[2025-02-14 14:17:24,593] [notubiz.main] [WARNING] - No attachments found for module item: 72f5ef7d-9a8e-464f-a3ba-eb77459c3372
+[2025-02-14 14:17:24,607] [notubiz.main] [WARNING] - No attachments found for module item: 080915c1-6524-4eb7-b58d-9a110f3c799e
+[2025-02-14 14:17:24,609] [notubiz.main] [WARNING] - No attachments found for module item: 7ffc2a19-72e7-4c00-8abe-ca566f84ea7e

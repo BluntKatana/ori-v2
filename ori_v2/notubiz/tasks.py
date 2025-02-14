@@ -32,7 +32,7 @@ def scrape_events(organisation_id: int, year: int):
     session.add(dbMunicipality)
     session.commit()
 
-    url = f'https://api.notubiz.nl/organisation/{organisation_id}/meetings?year={year}'
+    url = f'https://api.notubiz.nl/events'
     eventsReponse = requests.get(
         url=url,
         params={
@@ -44,6 +44,7 @@ def scrape_events(organisation_id: int, year: int):
             "application_token": "11ef5846eaf0242ec4e0bea441379d699a77f703d"
         }
     )
+    print(eventsReponse)
 
 
 
@@ -59,11 +60,11 @@ def scrape_events(organisation_id: int, year: int):
             log.warning("No meeting URL found for event")
             continue
 
-        scrape_event.delay(dbMunicipality, meeting_url)
+        scrape_event.delay(dbMunicipality.uuid, meeting_url)
     session.commit()
 
 @app.task
-def scrape_event(municipality: Municipality, meeting_url: str):
+def scrape_event(municipality_uuid: str, meeting_url: str):
     """
     Scrape a single event from the Notubiz API
 
@@ -92,12 +93,15 @@ def scrape_event(municipality: Municipality, meeting_url: str):
     meetingData = meetingResponse.json()
     meeting = meetingData['meeting']
 
+    log.info(f"Scraping meeting: {meeting['id']}")
+
     dbMeeting = Meeting(
         uuid=Database.uuid(),
         source="notubiz",
-        municipality=municipality,
+        municipality_uuid=municipality_uuid,
         data=json.dumps(meetingData),
         title=parse_title(meeting['attributes']) if meeting['attributes'] else None,
+        source_id=str(meeting['id']),
         source_api_url=meeting_url,
         source_page_url=meeting['url'],
         source_creation_date=meeting['creation_date']
@@ -109,10 +113,10 @@ def scrape_event(municipality: Municipality, meeting_url: str):
         dbDocument = Document(
             uuid=Database.uuid(),
             source="notubiz",
-            municipality=municipality,
+            municipality_uuid=municipality_uuid,
             data=json.dumps(document),
             title=document['title'],
-            source_id=document['id'],
+            source_id=str(document['id']),
             source_api_url=document['url'],
             meeting=dbMeeting,
         )
@@ -120,11 +124,15 @@ def scrape_event(municipality: Municipality, meeting_url: str):
 
     # retrieve all agenda items under a meeting
     for agenda_item in meeting['agenda_items']:
-        scrape_agenda_item.delay(dbMeeting, f"https://{agenda_item['type_data']['self']}")
+        scrape_agenda_item.delay(
+            dbMeeting.municipality_uuid, 
+            dbMeeting.uuid, 
+            f"https://{agenda_item['type_data']['self']}"
+        )
     session.commit()
 
 @app.task
-def scrape_agenda_item(meeting: Meeting, agenda_url: str):
+def scrape_agenda_item(municipality_uuid: str, meeting_uuid: str, agenda_url: str):
     """
     Scrape a single agenda item from the Notubiz API
 
@@ -156,10 +164,11 @@ def scrape_agenda_item(meeting: Meeting, agenda_url: str):
     dbAgendaItem = AgendaItem(
         uuid=Database.uuid(),
         source="notubiz",
-        municipality=meeting.municipality,
-        meeting=meeting,
+        municipality_uuid=municipality_uuid,
+        meeting_uuid=meeting_uuid,
         data=json.dumps(agendaData),
         title=parse_title(agenda['type_data']['attributes']) if agenda['type_data']['attributes'] else None,
+        source_id=str(agenda['id']),
         source_api_url=agenda_url,
     )
     session.add(dbAgendaItem)
@@ -169,22 +178,41 @@ def scrape_agenda_item(meeting: Meeting, agenda_url: str):
         dbDocument = Document(
             uuid=Database.uuid(),
             source="notubiz",
-            municipality=meeting.municipality,
+            municipality_uuid=municipality_uuid,
             agenda_item=dbAgendaItem,
             data=json.dumps(document),
             title=document['title'],
-            source_id=document['id'],
+            source_id=str(document['id']),
             source_api_url=document['url'],
         )
         session.add(dbDocument)
 
     # retrieve all module items under an agenda item
     for module_item in agenda['module_items']:
-        scrape_module_item.delay(dbAgendaItem, f"https://{module_item['self']}")
+        module_url = f"https://{module_item['self']}"
+        if not module_url:
+            log.warning("No module URL found for module item")
+            continue
+        scrape_module_item.delay(
+            dbAgendaItem.municipality_uuid,
+            dbAgendaItem.uuid,
+            f"https://{module_item['self']}"
+        )
+
+    # retrieve all agenda items under an agenda item
+    for nested_agenda_item in agenda['agenda_items']:
+        if not nested_agenda_item['type'] == 'agenda_point':
+            log.info("Not an agenda point")
+            continue
+        scrape_agenda_item.delay(
+            dbAgendaItem.municipality_uuid,
+            dbAgendaItem.meeting_uuid,
+            f"https://{nested_agenda_item['self']}"
+        )
     session.commit()
 
 @app.task
-def scrape_module_item(agenda_item: AgendaItem, module_url: str):
+def scrape_module_item(municipality_uuid: str, agenda_item_uuid: str, module_url: str):
     """
     Scrape a single module item from the Notubiz API
 
@@ -211,18 +239,23 @@ def scrape_module_item(agenda_item: AgendaItem, module_url: str):
         return
 
     moduleData = moduleResponse.json()
-    module = moduleData['item']
+    moduleItem = moduleData['item']
+
+    attachments = moduleItem.get('attachments', None)
+    if not attachments:
+        log.warning(f"No attachments found for module item: {agenda_item_uuid}")
+        return
 
     # retrieve all documents under a module item
-    for document in module['attachments']['document']:
+    for document in attachments['documents']:
         dbDocument = Document(
             uuid=Database.uuid(),
             source="notubiz",
-            municipality=agenda_item.municipality,
-            agenda_item=agenda_item,
+            municipality_uuid=municipality_uuid,
+            agenda_item_uuid=agenda_item_uuid,
             data=json.dumps(document),
             title=document['title'],
-            source_id=document['id'],
+            source_id=str(document['id']),
             source_api_url=document['url'],
         )
         session.add(dbDocument)

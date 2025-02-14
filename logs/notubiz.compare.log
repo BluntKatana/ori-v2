@@ -1,0 +1,180 @@
+[2025-02-14 12:39:34,039] [notubiz.compare] [INFO] - {
+  "meeting": {
+    "organisation": {
+      "id": 1723,
+      "self": "api.notubiz.nl/organisations/1723"
+    },
+    "gremium": {
+      "id": 5702,
+      "self": "api.notubiz.nl/organisations/1723/gremia/5702"
+    },
+    "module_items": [],
+    "parent": null,
+    "agenda_items": [],
+    "documents": [],
+    "folders": [],
+    "id": 1202264,
+    "self": "api.notubiz.nl/events/meetings/1202264",
+    "type": "meeting",
+    "permission_group": "public",
+    "body": "council",
+    "confidential": 0,
+    "announcement": false,
+    "canceled": false,
+    "inactive": false,
+    "creation_date": "2024-01-29 15:05:20",
+    "last_modified": "2024-02-22 11:10:03",
+    "order": null,
+    "live": false,
+    "archive_state": "unarchived",
+    "archive_state_last_modified": null,
+    "allow_subscriptions": false,
+    "subscriptions": [],
+    "url": "https://waddinxveen.raadsinformatie.nl/vergadering/1202264/VERVALT+Covid+Herinnering",
+    "salutation": null,
+    "template": false,
+    "attributes": [
+      {
+        "id": 1,
+        "reference_model": null,
+        "value": "VERVALT Covid Herinnering"
+      },
+      {
+        "id": 3,
+        "reference_model": null,
+        "value": "<p>De bijeenkomst gaat niet door, vanwege een gebrek aan aanmeldingen.</p>"
+      },
+      {
+        "id": 50,
+        "reference_model": null,
+        "value": "Raadzaal"
+      }
+    ],
+    "plannings": [
+      {
+        "start_date": "2024-02-26 19:00:00",
+        "end_date": null
+      }
+    ]
+  }
+}
+[2025-02-14 12:41:19,549] [notubiz.compare] [INFO] - {
+  "meeting": {
+    "organisation": {
+      "id": 1723,
+      "self": "api.notubiz.nl/organisations/1723"
+    },
+    "gremium": {
+      "id": 5702,
+      "self": "api.notubiz.nl/organisations/1723/gremia/5702"
+    },
+    "module_items": [],
+    "parent": null,
+    "agenda_items": [],
+    "documents": [],
+    "folders": [],
+    "id": 1202264,
+    "self": "api.notubiz.nl/events/meetings/1202264",
+    "type": "meeting",
+    "permission_group": "public",
+    "body": "council",
+    "confidential": 0,
+    "announcement": false,
+    "canceled": false,
+    "inactive": false,
+    "creation_date": "2024-01-29 15:05:20",
+    "last_modified": "2024-02-22 11:10:03",
+    "order": null,
+    "live": false,
+    "archive_state": "unarchived",
+    "archive_state_last_modified": null,
+    "allow_subscriptions": false,
+    "subscriptions": [],
+    "url": "https://waddinxveen.raadsinformatie.nl/vergadering/1202264/VERVALT+Covid+Herinnering",
+    "salutation": null,
+    "template": false,
+    "attributes": [
+      {
+        "id": 1,
+        "reference_model": null,
+        "value": "VERVALT Covid Herinnering"
+      },
+      {
+        "id": 3,
+        "reference_model": null,
+        "value": "<p>De bijeenkomst gaat niet door, vanwege een gebrek aan aanmeldingen.</p>"
+      },
+      {
+        "id": 50,
+        "reference_model": null,
+        "value": "Raadzaal"
+      }
+    ],
+    "plannings": [
+      {
+        "start_date": "2024-02-26 19:00:00",
+        "end_date": null
+      }
+    ]
+  }
+}
+[2025-02-14 12:44:43,328] [notubiz.compare] [INFO] - {
+  "meeting": {
+    "organisation": {
+      "id": 1723,
+      "self": "api.notubiz.nl/organisations/1723"
+    },
+    "gremium": {
+      "id": 5702,
+      "self": "api.notubiz.nl/organisations/1723/gremia/5702"
+    },
+    "module_items": [],
+    "parent": null,
+    "agenda_items": [],
+    "documents": [],
+    "folders": [],
+    "id": 1179809,
+    "self": "api.notubiz.nl/events/meetings/1179809",
+    "type": "meeting",
+    "permission_group": "public",
+    "body": "council",
+    "confidential": 0,
+    "announcement": false,
+    "canceled": false,
+    "inactive": false,
+    "creation_date": "2023-11-27 10:19:45",
+    "last_modified": "2024-02-05 15:47:38",
+    "order": null,
+    "live": false,
+    "archive_state": "unarchived",
+    "archive_state_last_modified": null,
+    "allow_subscriptions": false,
+    "subscriptions": [],
+    "url": "https://waddinxveen.raadsinformatie.nl/vergadering/1179809/Werkbezoek+Bouwacademie",
+    "salutation": null,
+    "template": false,
+    "attributes": [
+      {
+        "id": 1,
+        "reference_model": null,
+        "value": "Werkbezoek Bouwacademie"
+      },
+      {
+        "id": 3,
+        "reference_model": null,
+        "value": "<p>Uitnodigin volgt.</p>"
+      },
+      {
+        "id": 50,
+        "reference_model": null,
+        "value": ""
+      }
+    ],
+    "plannings": [
+      {
+        "start_date": "2024-02-09 16:00:00",
+        "end_date": null
+      }
+    ]
+  }
+}

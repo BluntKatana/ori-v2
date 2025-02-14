@@ -1,4 +1,5 @@
 import argparse
+import json
 from typing import List
 import jq
 import numpy as np
@@ -6,6 +7,9 @@ import requests
 
 from ori_v2.db.db import Database
 from ori_v2.db.schema import Document, Municipality, Meeting, AgendaItem
+from ori_v2.logger.logger import Logger
+
+log = Logger("notubiz.compare").get_logger()
 
 # Example how to use this script
 # - first run:
@@ -31,8 +35,9 @@ settings = {
 }
 
 # ----
-# Retrieve document data from Openraadsinformatie
+# Compare documents
 # ----
+print("-- Documents --")
 
 oriResponse = requests.get(
     url="https://api.openraadsinformatie.nl/v1/elastic/_search",
@@ -158,13 +163,15 @@ oriResponse = requests.get(
 oriData = oriResponse.json()
 ori_ids = jq.compile('.hits.hits | map(._source.was_generated_by.reference_identifier | tonumber)').input(oriData).first()
 
-# ---
 # Retrieve documents from Notubiz (parsed before hand)
-# ---
 municipality: Municipality = Database().Session()\
     .query(Municipality)\
     .where(Municipality.identifier == str(settings['organisation_id']))\
     .first()
+
+if not municipality:
+    print(f"Municipality with identifier {settings['organisation_id']} not found")
+    exit(1)
 
 documents: List[Document] = Database().Session()\
     .query(Document)\
@@ -173,15 +180,10 @@ documents: List[Document] = Database().Session()\
 notubiz_ids = [doc.source_id for doc in documents]
 notubiz_ids = np.unique(notubiz_ids)
 
-# ---
-# Compare the ids
-# ---
-
 in_notubiz_not_in_ori = np.setdiff1d(notubiz_ids, ori_ids)
 in_ori_not_in_notubiz = np.setdiff1d(ori_ids, notubiz_ids)
 
-print("-- Documents --")
-print('Scraped from Notubiz:', len(notubiz_ids))
+print(f"Scraped from Notubiz: {len(notubiz_ids)} (total: {documents.count()})")
 print('Scraped from ORI:', len(ori_ids))
 
 print('In Notubiz but not in ORI:', len(in_notubiz_not_in_ori))
@@ -190,8 +192,8 @@ print('In ORI but not in Notubiz:', len(in_ori_not_in_notubiz))
 # ---
 # Compare meetings
 # ---
-
-agendaItemsResponse = requests.get(
+print("-- Meetings --")
+meetingResponse = requests.get(
     url="https://api.openraadsinformatie.nl/v1/elastic/_search",
     headers={'Content-Type': 'application/json'},
     json={
@@ -312,23 +314,22 @@ agendaItemsResponse = requests.get(
         ]
     }
 )
-agendaItemsData = agendaItemsResponse.json()
-ori_agenda_items_ids = jq.compile('.hits.hits | map(._source.was_generated_by.original_identifier | tonumber)').input(agendaItemsData).first()
+meetingData = meetingResponse.json()
+ori_meeting_ids = jq.compile('.hits.hits | map(._source.was_generated_by.original_identifier | tonumber)').input(meetingData).first()
 
 
-agenda_items: List[Meeting] = Database().Session()\
+meetings: List[Meeting] = Database().Session()\
     .query(Meeting)\
     .where(Meeting.municipality_uuid == municipality.uuid)
 
-notubiz_agenda_ids = [meeting.source_id for meeting in agenda_items]
-notubiz_agenda_ids = np.unique(notubiz_agenda_ids)
+notubiz_meeting_ids = [meeting.source_id for meeting in meetings]
+notubiz_meeting_ids = np.unique(notubiz_meeting_ids)
 
-in_notubiz_not_in_ori = np.setdiff1d(notubiz_agenda_ids, ori_agenda_items_ids)
-in_ori_not_in_notubiz = np.setdiff1d(ori_agenda_items_ids, notubiz_agenda_ids)
+in_notubiz_not_in_ori = np.setdiff1d(notubiz_meeting_ids, ori_meeting_ids)
+in_ori_not_in_notubiz = np.setdiff1d(ori_meeting_ids, notubiz_meeting_ids)
 
-print("-- Meetings --")
-print('Scraped from Notubiz:', len(notubiz_agenda_ids))
-print('Scraped from ORI:', len(ori_agenda_items_ids))
+print(f"Scraped from Notubiz: {len(notubiz_meeting_ids)} (total: {meetings.count()})")
+print('Scraped from ORI:', len(ori_meeting_ids))
 
 print('In Notubiz but not in ORI:', len(in_notubiz_not_in_ori))
 print('In ORI but not in Notubiz:', len(in_ori_not_in_notubiz))
@@ -431,7 +432,7 @@ agendaItemsResponse = requests.get(
             "fragment_size": 100,
             "number_of_fragments": 3
         },
-        "size": 1000,
+        "size": 2000,
         "_source": {
             "includes": [
                 "was_generated_by.reference_identifier"
@@ -442,7 +443,7 @@ agendaItemsResponse = requests.get(
             "_index": {
                 "terms": {
                     "field": "_index",
-                    "size": 1000,
+                    "size": 2000,
                     "order": {
                         "_count": "desc"
                     }
@@ -474,7 +475,7 @@ in_notubiz_not_in_ori = np.setdiff1d(notubiz_agenda_ids, ori_agenda_items_ids)
 in_ori_not_in_notubiz = np.setdiff1d(ori_agenda_items_ids, notubiz_agenda_ids)
 
 print("-- Agenda Items --")
-print('Scraped from Notubiz:', len(notubiz_agenda_ids))
+print(f"Scraped from Notubiz: {len(notubiz_agenda_ids)} (total: {agenda_items.count()})")
 print('Scraped from ORI:', len(ori_agenda_items_ids))
 
 print('In Notubiz but not in ORI:', len(in_notubiz_not_in_ori))
