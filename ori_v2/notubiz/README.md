@@ -14,6 +14,10 @@
   - many: agenda_items (?)
   - many: module_items
 
+- ModuleItem
+
+  - many: documents
+
 - Document
   - many: connections
 

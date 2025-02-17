@@ -8,9 +8,11 @@ from ori_v2.notubiz.utils import parse_title
 from ..celery import app
 
 log = Logger("notubiz.main").get_logger()
+db = Database()
+session = db.Session()
 
 @app.task
-def scrape_events(organisation_id: int, year: int):
+def scrape_events(organisation_id: int, year: int, page: int = 1):
     """
     Scrape events from the Notubiz API
 
@@ -21,21 +23,26 @@ def scrape_events(organisation_id: int, year: int):
     Returns:
         None
     """
-    db = Database()
-    session = db.Session()
-    dbMunicipality = Municipality(
-        uuid=Database.uuid(),
+    # check if a municipality with the given organisation_id already exists
+    dbMunicipality: Municipality = session.query(Municipality).filter_by(
         source="notubiz",
-        identifier=organisation_id
-    )
+        identifier=str(organisation_id)
+    ).first()
 
-    session.add(dbMunicipality)
-    session.commit()
+    if not dbMunicipality:
+        dbMunicipality = Municipality(
+            uuid=Database.uuid(),
+            source="notubiz",
+            identifier=organisation_id
+        )
+        session.add(dbMunicipality)
+        session.commit()
 
     url = f'https://api.notubiz.nl/events'
     eventsReponse = requests.get(
         url=url,
         params={
+            "page": page,
             "organisation_id": organisation_id,
             "date_from": f"{year}-01-01 00:00:00",
             "date_to": f"{year}-12-31 23:59:59",
@@ -44,9 +51,6 @@ def scrape_events(organisation_id: int, year: int):
             "application_token": "11ef5846eaf0242ec4e0bea441379d699a77f703d"
         }
     )
-    print(eventsReponse)
-
-
 
     eventsData = eventsReponse.json()
 
@@ -63,6 +67,9 @@ def scrape_events(organisation_id: int, year: int):
         scrape_event.delay(dbMunicipality.uuid, meeting_url)
     session.commit()
 
+    if eventsData['pagination']['has_more_pages']:
+        scrape_events.delay(organisation_id, year, page + 1)
+
 @app.task
 def scrape_event(municipality_uuid: str, meeting_url: str):
     """
@@ -75,8 +82,6 @@ def scrape_event(municipality_uuid: str, meeting_url: str):
     Returns:
         None
     """
-    db = Database()
-    session = db.Session()
 
     meetingResponse = requests.get(
         url=meeting_url,
@@ -143,8 +148,6 @@ def scrape_agenda_item(municipality_uuid: str, meeting_uuid: str, agenda_url: st
     Returns:
         None
     """
-    db = Database()
-    session = db.Session()
 
     agendaResponse = requests.get(
         url=agenda_url,
@@ -202,7 +205,7 @@ def scrape_agenda_item(municipality_uuid: str, meeting_uuid: str, agenda_url: st
     # retrieve all agenda items under an agenda item
     for nested_agenda_item in agenda['agenda_items']:
         if not nested_agenda_item['type'] == 'agenda_point':
-            log.info("Not an agenda point")
+            log.info(f"Not an agenda point: {agenda['id']} {nested_agenda_item['type']}")
             continue
         scrape_agenda_item.delay(
             dbAgendaItem.municipality_uuid,
@@ -223,8 +226,6 @@ def scrape_module_item(municipality_uuid: str, agenda_item_uuid: str, module_url
     Returns:
         None
     """
-    db = Database()
-    session = db.Session()
 
     moduleResponse = requests.get(
         url=module_url,
@@ -246,8 +247,13 @@ def scrape_module_item(municipality_uuid: str, agenda_item_uuid: str, module_url
         log.warning(f"No attachments found for module item: {agenda_item_uuid}")
         return
 
+    documents = attachments.get('documents', None)
+    if not documents:
+        log.warning(f"No documents found for module item: {agenda_item_uuid}")
+        return
+
     # retrieve all documents under a module item
-    for document in attachments['documents']:
+    for document in documents:
         dbDocument = Document(
             uuid=Database.uuid(),
             source="notubiz",

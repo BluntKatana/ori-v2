@@ -182,6 +182,7 @@ notubiz_ids = np.unique(notubiz_ids)
 
 in_notubiz_not_in_ori = np.setdiff1d(notubiz_ids, ori_ids)
 in_ori_not_in_notubiz = np.setdiff1d(ori_ids, notubiz_ids)
+print(in_ori_not_in_notubiz)
 
 print(f"Scraped from Notubiz: {len(notubiz_ids)} (total: {documents.count()})")
 print('Scraped from ORI:', len(ori_ids))
